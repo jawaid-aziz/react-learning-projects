@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import { Project1 } from './Projects/Project1';
-
+import { Project3 } from './Projects/Project3';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Project1 />
+    <Project3 />
   </React.StrictMode>
 );
-
-
